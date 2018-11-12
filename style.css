@@ -1,0 +1,189 @@
+@keyframes example {
+    0%   {opacity:0.0;}
+	10%   {opacity:0.1;}
+    20%  {opacity:0.2}
+    30%  {opacity:0.3;}
+    40%  {opacity:0.4;}
+    50% {opacity:0.5;} 
+	60%  {opacity:0.6;} 
+	70%  {opacity:0.7;} 
+	80%   {opacity:0.8;} 
+	90%    {opacity:0.9;} 
+	100%   {opacity:1;} 
+}
+
+html { 
+  margin:0;
+  padding:0;
+  background: url(bg.jpg) no-repeat center fixed; 
+  -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+  background-size: cover; /* version standardisée */
+}
+
+img.superbg {
+    position:fixed;
+    top:0;
+    left:0;
+    z-index:-1;
+}
+
+#logo {
+	max-width:50%;
+	height:auto;
+	position:absolute;
+	left:23%;
+	top:20%;
+	animation-name: example;
+    animation-duration: 1s;
+}
+
+#bouton1 {
+	font-family: 'Caveat Brush', cursive;
+	display:inline-block;
+	width:40%;
+	position:absolute;
+	top:70%;
+	right:25%;
+	font-size:2vw;
+	color:white;
+	animation-name: example;
+    animation-duration: 1s;
+	animation-delay: 2s;
+	 animation-fill-mode: both;
+}
+
+#bouton2 {
+	font-family: 'Caveat Brush', cursive;
+	display:inline-block;
+	width:40%;
+	position:absolute;
+	top:70%;
+	right:7%;
+	font-size:2vw;
+	color:white;
+	animation-name: example;
+    animation-duration: 1s;
+	animation-delay: 2s;
+	 animation-fill-mode: both;
+}
+
+#réseaux{
+
+position:absolute;
+bottom:2%; 
+left:30%;
+}  
+
+#logo2	{
+	padding-left:5%;
+	width:5%;	
+	animation-name: example;
+    animation-duration: 1s;
+	animation-delay: 4s;
+	 animation-fill-mode: both;
+}
+
+a {
+	color:white;
+	text-decoration:none;
+}
+
+a:hover{
+	text-decoration:none;
+	color:black;
+}
+
+#work {
+	position:absolute;
+	top:70%;
+	left:55%;
+	width:10%;
+	animation-name: example;
+    animation-duration: 1s;
+	animation-delay: 2s;
+	animation-fill-mode: both;
+}
+
+@media only screen and (max-width: 1100px) {
+	
+	#logo {
+		
+		left:0%;
+		max-width:100%;
+	}
+	#bouton2 {
+		right:35%;
+		font-size:55px;
+		top:55%;
+		
+	}
+	
+	#bouton1 {
+		right:0%;
+		font-size:55px;
+		top:55%;
+	}
+	
+	
+	#réseaux{
+left:0%;
+}  
+	
+#logo2	{
+    padding-left:4%;
+	width:15%;	
+	
+}
+
+#work{
+	position:absolute;
+	top:58%;
+	left:65%;
+	width:15%;
+	
+}
+
+}
+
+@media only screen and (max-width: 450px) {
+	
+	#logo {
+		left:0%;
+		max-width:100%;
+	}
+	
+	#bouton2{
+		font-size:20px;
+		top:60%;
+		right:25%;
+	
+	}
+	
+	#bouton1{
+		font-size:20px;
+		top:50%;
+		right:20%;	
+	}
+	
+	#réseaux{
+    left:1%;
+}  
+	
+	#logo2	{
+	padding-left:3%;	
+	width:20x;	
+	
+}
+
+#work{
+	position:absolute;
+	top:60%;
+	left:45%;
+	width:20%;
+	
+}
+
+	}
+	
+
+	
